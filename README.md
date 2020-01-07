@@ -94,7 +94,7 @@ or
 	
 ``npm install pm2@latest -g``
 
-####Show Logs:
+#### Show Logs:
 	pm2 logs
 	pm2 logs --lines 200
 
@@ -106,7 +106,7 @@ or
 	cd Hyperion-History-API
 	npm install
 
-####EDIT CONFIGS:
+#### EDIT CONFIGS:
 	cp example-ecosystem.config.js ecosystem.config.js
 	nano ecosystem.config.js
 
@@ -114,21 +114,21 @@ or
 	cp example-connections.json connections.json
 	nano connections.json
 
-###Installation COMPLETE
+### Installation COMPLETE
 
 ## RUNBOOK
 
-###START HYPERION:
+### START HYPERION:
 	pm2 start --only Indexer --update-env
 	pm2 logs Indexer
 
-###Stop reading and wait for queues to flush:
+### Stop reading and wait for queues to flush:
 	pm2 trigger Indexer stop
 
-###FORCE STOP:
+### FORCE STOP:
 	pm2 stop Indexer
 
-###RESTART:
+### RESTART:
 	pm2 start --only API --update-env
 	pm2 logs API
 
