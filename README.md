@@ -1,4 +1,4 @@
-**STOP AND READ!  This documentation is in progress.  Please submit comments/updates as a PR.**
+<span style="color:red">**STOP AND READ!  This documentation is in progress.  Please submit comments/updates as a PR.**</span>
 
 # HYPERION INSTALL & RUNBOOK
 
