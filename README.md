@@ -1,3 +1,5 @@
+**STOP AND READ!  This documentation is in progress.  Please submit comments/updates as a PR.**
+
 # HYPERION INSTALL & RUNBOOK
 
 This installation guide is tailored for Telos BPs who are interested in running the Hyperion v2 history tool on their telos BP node. 
